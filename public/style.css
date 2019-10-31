@@ -17,6 +17,7 @@ html {
 body {
     margin: 0px;
     height: 100%;
+    background-color: darkblue;
 }
 
 header {
@@ -29,25 +30,28 @@ h1 {
 }
 
 div#change_username, section#input_zone {
-    border: 5px outset #8258FA;
+    border: 5px outset darkcyan;
 }
 
 div#change_username {
     height: 3%;
     display: inline-block;
-    background-color: #BCA9F5;
+    background-color:  skyblue;
 }
 
 section#chatroom {
-    border: 5px inset #8258FA;
+    border: 5px inset darkcyan;
     height: 85%;
     overflow: auto;
+    background-color: white;
+    width:70%;
 }
 
 section#input_zone {
     height: 7%;
     text-align: center;
-    background-color: #BCA9F5;
+    background-color: lightskyblue;
+    width: 70%;
 }
 
 .vertical-align {
@@ -86,9 +90,9 @@ p.message {
 }
 
 .message:nth-child(even) {
-    background-color: #81DAF5;
+    background-color: lightblue;
 }
 
 .message:nth-child(odd) {
-    background-color: #81BEF7;
+    background-color: lightskyblue;
 }
